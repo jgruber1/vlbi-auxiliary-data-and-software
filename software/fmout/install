@@ -1,0 +1,31 @@
+#!/bin/bash
+#
+# Copyright (c) 2021, 2022 WHI LLC
+#
+# adjust: Adjust clock models for VLBI data correlation.
+# (see http://github.com/whi-llc/adjust).
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+#
+set -e
+if ! python3 -m venv venv; then
+    echo python3 venv install failed
+    exit 1
+fi
+. venv/bin/activate
+if ! pip3 install -r requirements.txt; then
+    echo pip3 requirements install failed
+    exit 1
+fi
+deactivate

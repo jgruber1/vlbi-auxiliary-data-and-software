@@ -1,0 +1,13 @@
+station,$MODE,$FREQ,$BBC,$IF,$TRACKS,$PHASE_CAL_DETECT
+K2,VGOS_std,VGOS_std,VGOS_std,VGOS_std,VDIF_format,Standard
+Mg,VGOS_std,VGOS_std,VGOS_std,VGOS_std,VDIF_format,Standard
+Gs,VGOS_std,VGOS_std,VGOS_std,VGOS_std,VDIF_format,Standard
+Wf,VGOS_std,VGOS_std,VGOS_std,VGOS_std,VDIF_format,Standard
+Nn,VGOS_std,VGOS_std,VGOS_std,VGOS_std,VDIF_format,Standard
+Oe,VGOS_std,VGOS_std,VGOS_std,VGOS_std,VDIF_format,Standard
+Ow,VGOS_std,VGOS_std,VGOS_std,VGOS_std,VDIF_format,Standard
+Ws,VGOS_std,VGOS_std,VGOS_std,VGOS_std,VDIF_format,Standard
+Yj,VGOS_std,VGOS_std,VGOS_Yj,VGOS_std,VDIF_format,Standard
+Sa,VGOS_std,VGOS_std,VGOS_std,VGOS_std,VDIF_format,Standard
+Is,VGOS_std,VGOS_std_Is,VGOS_std,VGOS_std,VDIF_format,Standard
+Hb,VGOS_std,VGOS_std_Is,VGOS_std,VGOS_Hb,VDIF_format,Standard

@@ -1,0 +1,4 @@
+def VGOS_Hb;
+  if_def = &IF_1N : 3N : X : 8080.0 MHz : U : 10 MHz : 0 Hz;
+  if_def = &IF_3N : 3N : Y : 8080.0 MHz : U : 10 MHz : 0 Hz;
+enddef;
